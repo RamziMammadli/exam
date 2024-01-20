@@ -19,3 +19,15 @@ function removeItem (index) {
     localStorage.setItem('cart', JSON.stringify(cart))
     getBasket()
 }
+
+//COUNTA GORE SILME 
+// function removeItem (index) {
+//     let cart = JSON.parse(localStorage.getItem('cart'))
+//     if(cart[index].count > 1){
+//         cart[index].count -= 1
+//     } else {
+//         cart.splice(index, 1) 
+//     }
+//     localStorage.setItem('cart', JSON.stringify(cart))
+//     getBasket()
+// }

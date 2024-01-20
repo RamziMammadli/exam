@@ -18,6 +18,7 @@ header {
 .alo {
     display: none;
 }
+
 @media screen and (max-width: 600px) {
     .alo {
         display: block;
@@ -27,7 +28,6 @@ header {
     }
     .allo {
         background-color: red;
-        max-width: 600px !important;
     }
   
 }
